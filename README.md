@@ -21,18 +21,10 @@
 
   <!-- High-Tech Telemetry Status Badges -->
   <p>
-    <a href="https://github.com/emon404x">
-      <img src="https://img.shields.io/badge/STATUS-ONLINE-00FF66?style=flat-square&logo=statuspage&logoColor=080910&labelColor=0d1117" alt="Status: Online" />
-    </a>&nbsp;
-    <a href="https://github.com/emon404x">
-      <img src="https://img.shields.io/badge/MODE-EXPERIMENTAL-A855F7?style=flat-square&logo=scikitlearn&logoColor=FFFFFF&labelColor=0d1117" alt="Mode: Experimental" />
-    </a>&nbsp;
-    <a href="https://github.com/emon404x">
-      <img src="https://img.shields.io/badge/CURRENT_QUEST-SIDE_QUEST_FOREVER-00F0FF?style=flat-square&logo=target&logoColor=080910&labelColor=0d1117" alt="Current Quest" />
-    </a>&nbsp;
-    <a href="https://github.com/emon404x">
-      <img src="https://img.shields.io/badge/PURPLE_FUEL-99%25-EC4899?style=flat-square&logo=coffeescript&logoColor=FFFFFF&labelColor=0d1117" alt="Coffee Level" />
-    </a>
+    <img src="https://img.shields.io/badge/STATUS-ONLINE-00FF66?style=flat-square&logo=statuspage&logoColor=080910&labelColor=0d1117" alt="Status: Online" />&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/MODE-EXPERIMENTAL-A855F7?style=flat-square&logo=scikitlearn&logoColor=FFFFFF&labelColor=0d1117" alt="Mode: Experimental" />&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/CURRENT_QUEST-SIDE_QUEST_FOREVER-00F0FF?style=flat-square&logo=target&logoColor=080910&labelColor=0d1117" alt="Current Quest" />&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/PURPLE_FUEL-99%25-EC4899?style=flat-square&logo=coffeescript&logoColor=FFFFFF&labelColor=0d1117" alt="Coffee Level" />
   </p>
 
   <img src="assets/cyber-divider.svg" alt="Cyber Divider" width="100%" />
@@ -43,20 +35,19 @@
 
 ## 🎮 PLAYER 01 // PILOT DOSSIER
 
-<table border="0" width="100%">
-  <tr>
-    <td width="30%" align="center" valign="middle">
-      <a href="https://github.com/emon404x">
-        <img src="assets/avatar.jpg" width="165" alt="EmOn Avatar" style="border-radius: 14px;" />
-      </a>
-      <br/>
-      <sub><b>PILOT: EmOn</b> // <code>[ONLINE]</code></sub>
-    </td>
-    <td width="70%" valign="top">
-      <img src="assets/player-stats.svg" width="100%" alt="Player Stats Card" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/emon404x">
+    <img src="assets/avatar.jpg" width="135" alt="EmOn Avatar" style="border-radius: 50%;" />
+  </a>
+  <br/>
+  <h3>👾 PILOT: EmOn &nbsp;<code>[ ONLINE ]</code></h3>
+  <p><sub><b>Rogue Systems &amp; Full-Stack Adventurer</b> • <b>Dhaka, BD [GMT+6]</b></sub></p>
+
+  <!-- Full-width Holographic Telemetry Card -->
+  <img src="assets/player-stats.svg" alt="Pilot Telemetry Card" width="100%" />
+</div>
+
+<br/>
 
 ### 🕹️ Pilot Logs
 > Hey there! I'm **EmOn** (`emon404x`) — a casual developer building random software experiments, exploring the layers between high-level web architecture and low-level systems, and going on perpetual coding side quests.

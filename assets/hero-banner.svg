@@ -1,74 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 290" width="100%" height="100%">
   <defs>
     <!-- Background Canvas Gradients -->
     <linearGradient id="bgCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080910"/>
-      <stop offset="45%" stop-color="#0d0e18"/>
-      <stop offset="100%" stop-color="#06070c"/>
+      <stop offset="0%" stop-color="#07080e"/>
+      <stop offset="50%" stop-color="#0c0d16"/>
+      <stop offset="100%" stop-color="#06070b"/>
     </linearGradient>
 
     <!-- Radial Ambient Glowing Orbs -->
-    <radialGradient id="purpleAura" cx="20%" cy="40%" r="65%">
-      <stop offset="0%" stop-color="#7928CA" stop-opacity="0.35"/>
-      <stop offset="60%" stop-color="#7928CA" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#7928CA" stop-opacity="0"/>
+    <radialGradient id="purpleGlow" cx="25%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="greenAura" cx="80%" cy="60%" r="55%">
-      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.25"/>
-      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.08"/>
+    <radialGradient id="greenGlow" cx="75%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="cyanCore" cx="50%" cy="30%" r="40%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
     </radialGradient>
 
     <!-- Linear Text Gradients -->
     <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="35%" stop-color="#F3F4F6"/>
-      <stop offset="70%" stop-color="#00FF66"/>
+      <stop offset="40%" stop-color="#E2E8F0"/>
+      <stop offset="75%" stop-color="#00FF66"/>
       <stop offset="100%" stop-color="#00F0FF"/>
     </linearGradient>
 
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#A855F7"/>
       <stop offset="50%" stop-color="#00F0FF"/>
       <stop offset="100%" stop-color="#00FF66"/>
     </linearGradient>
 
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.8"/>
-      <stop offset="25%" stop-color="#00F0FF" stop-opacity="0.3"/>
-      <stop offset="75%" stop-color="#A855F7" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.4"/>
+      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.7"/>
+      <stop offset="30%" stop-color="#00F0FF" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.3"/>
     </linearGradient>
 
-    <!-- Modern Hex Grid -->
-    <pattern id="modernGrid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255, 255, 255, 0.025)" stroke-width="1"/>
-      <circle cx="32" cy="0" r="1" fill="rgba(0, 240, 255, 0.15)"/>
-    </pattern>
-
-    <!-- Modern Diagonal Circuit Accents -->
-    <pattern id="dotMatrix" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.8" fill="rgba(255, 255, 255, 0.05)"/>
+    <!-- Grid Pattern -->
+    <pattern id="modernGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1"/>
+      <circle cx="30" cy="0" r="0.8" fill="rgba(0, 240, 255, 0.12)"/>
     </pattern>
 
     <!-- Neon Glow Filter -->
-    <filter id="ultraGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur1"/>
-      <feGaussianBlur stdDeviation="15" result="blur2"/>
-      <feMerge>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="blur1"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="softGlow">
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -80,23 +60,15 @@
   <style>
     @keyframes laserPulse {
       0% { transform: translateX(-100%); opacity: 0; }
-      30% { opacity: 0.9; }
-      70% { opacity: 0.9; }
+      20% { opacity: 0.9; }
+      80% { opacity: 0.9; }
       100% { transform: translateX(100%); opacity: 0; }
     }
-    @keyframes breathGlow {
-      0%, 100% { opacity: 0.7; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.04); }
-    }
-    @keyframes floatParticle {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-6px); }
-    }
-    @keyframes barEq1 { 0%, 100% { height: 8px; } 50% { height: 26px; } }
-    @keyframes barEq2 { 0%, 100% { height: 24px; } 50% { height: 10px; } }
-    @keyframes barEq3 { 0%, 100% { height: 14px; } 50% { height: 32px; } }
-    @keyframes barEq4 { 0%, 100% { height: 28px; } 50% { height: 16px; } }
-    @keyframes barEq5 { 0%, 100% { height: 12px; } 50% { height: 22px; } }
+    @keyframes barEq1 { 0%, 100% { height: 6px; } 50% { height: 22px; } }
+    @keyframes barEq2 { 0%, 100% { height: 20px; } 50% { height: 8px; } }
+    @keyframes barEq3 { 0%, 100% { height: 10px; } 50% { height: 26px; } }
+    @keyframes barEq4 { 0%, 100% { height: 24px; } 50% { height: 12px; } }
+    @keyframes barEq5 { 0%, 100% { height: 8px; } 50% { height: 18px; } }
     @keyframes blinkDot { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0.2; } }
 
     .font-mono {
@@ -110,160 +82,149 @@
     .eq-bar-3 { animation: barEq3 1.5s ease-in-out infinite; }
     .eq-bar-4 { animation: barEq4 0.9s ease-in-out infinite; }
     .eq-bar-5 { animation: barEq5 1.4s ease-in-out infinite; }
-    .laser-sweep { animation: laserPulse 4s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
     .pulse-dot { animation: blinkDot 1.2s infinite; }
-    .floating-hud { animation: floatParticle 4s ease-in-out infinite; }
   </style>
 
   <!-- Base Canvas -->
-  <rect width="960" height="320" rx="16" fill="url(#bgCanvas)"/>
-  
-  <!-- Ambient Glow Blobs -->
-  <rect width="960" height="320" rx="16" fill="url(#purpleAura)"/>
-  <rect width="960" height="320" rx="16" fill="url(#greenAura)"/>
-  <rect width="960" height="320" rx="16" fill="url(#cyanCore)"/>
+  <rect width="960" height="290" rx="14" fill="url(#bgCanvas)"/>
+  <rect width="960" height="290" rx="14" fill="url(#purpleGlow)"/>
+  <rect width="960" height="290" rx="14" fill="url(#greenGlow)"/>
+  <rect width="960" height="290" rx="14" fill="url(#modernGrid)"/>
 
-  <!-- Matrix / Grid Texture -->
-  <rect width="960" height="320" rx="16" fill="url(#modernGrid)"/>
-  <rect x="600" y="20" width="340" height="280" fill="url(#dotMatrix)" opacity="0.6"/>
+  <!-- Outer Glass Frame -->
+  <rect x="8" y="8" width="944" height="274" rx="12" fill="none" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <rect x="14" y="14" width="932" height="262" rx="10" fill="rgba(13, 17, 23, 0.2)" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1"/>
 
-  <!-- Outer Glassmorphism Frame -->
-  <rect x="8" y="8" width="944" height="304" rx="12" fill="none" stroke="url(#borderGrad)" stroke-width="1.2" opacity="0.85"/>
-  <rect x="14" y="14" width="932" height="292" rx="10" fill="rgba(13, 17, 23, 0.3)" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+  <!-- Corner Cyber Brackets -->
+  <path d="M 12 32 L 12 12 L 32 12" fill="none" stroke="#00FF66" stroke-width="2.5"/>
+  <path d="M 948 32 L 948 12 L 928 12" fill="none" stroke="#00F0FF" stroke-width="2.5"/>
+  <path d="M 12 258 L 12 278 L 32 278" fill="none" stroke="#A855F7" stroke-width="2.5"/>
+  <path d="M 948 258 L 948 278 L 928 278" fill="none" stroke="#EC4899" stroke-width="2.5"/>
 
-  <!-- Corner Tech Brackets (Cyber Accents) -->
-  <path d="M 12 36 L 12 12 L 36 12" fill="none" stroke="#00FF66" stroke-width="2.5"/>
-  <path d="M 948 36 L 948 12 L 924 12" fill="none" stroke="#00F0FF" stroke-width="2.5"/>
-  <path d="M 12 284 L 12 308 L 36 308" fill="none" stroke="#A855F7" stroke-width="2.5"/>
-  <path d="M 948 284 L 948 308 L 924 308" fill="none" stroke="#EC4899" stroke-width="2.5"/>
+  <!-- Top Window Header Bar -->
+  <g transform="translate(32, 28)">
+    <circle cx="0" cy="0" r="4.5" fill="#EF4444"/>
+    <circle cx="14" cy="0" r="4.5" fill="#F59E0B"/>
+    <circle cx="28" cy="0" r="4.5" fill="#10B981"/>
 
-  <!-- Laser Beam Sweeping Top Rail -->
-  <g clip-path="url(#topClip)">
-    <line x1="20" y1="46" x2="940" y2="46" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
-    <line x1="20" y1="46" x2="300" y2="46" stroke="url(#accentGrad)" stroke-width="2" class="laser-sweep"/>
-  </g>
-
-  <!-- Top Glass HUD Bar -->
-  <g transform="translate(32, 32)">
-    <!-- Window Status Controls -->
-    <circle cx="4" cy="0" r="4.5" fill="#EF4444" opacity="0.9"/>
-    <circle cx="18" cy="0" r="4.5" fill="#F59E0B" opacity="0.9"/>
-    <circle cx="32" cy="0" r="4.5" fill="#10B981" opacity="0.9"/>
-
-    <!-- Breadcrumb Protocol Tag -->
-    <text x="54" y="4" fill="#00FF66" class="font-mono" font-size="11" font-weight="700" letter-spacing="1.5">
+    <text x="50" y="4" fill="#00FF66" class="font-mono" font-size="11" font-weight="700" letter-spacing="1.5">
       404X_OS <tspan fill="#64748B">//</tspan> KERNEL_v3.2
     </text>
 
-    <!-- Center System Status -->
     <text x="440" y="4" text-anchor="middle" fill="#94A3B8" class="font-mono" font-size="11" letter-spacing="2">
-      CORE: <tspan fill="#00F0FF" font-weight="700">EXPERIMENTAL</tspan>  |  NODE: <tspan fill="#A855F7" font-weight="700">DHAKA [GMT+6]</tspan>
+      STATUS: <tspan fill="#00F0FF" font-weight="700">ONLINE</tspan>  |  MODE: <tspan fill="#A855F7" font-weight="700">EXPERIMENTAL</tspan>
     </text>
 
-    <!-- Right Live Pulse -->
-    <circle cx="850" cy="0" r="4" fill="#00FF66" class="pulse-dot" filter="url(#softGlow)"/>
-    <text x="862" y="4" fill="#00FF66" class="font-mono" font-size="11" font-weight="700" letter-spacing="1">LIVE</text>
+    <circle cx="868" cy="0" r="3.5" fill="#00FF66" class="pulse-dot"/>
+    <text x="880" y="4" fill="#00FF66" class="font-mono" font-size="11" font-weight="700" letter-spacing="1">LIVE</text>
   </g>
 
-  <!-- Main Left Content Block -->
-  <g transform="translate(48, 80)">
+  <!-- Top Divider Line -->
+  <line x1="20" y1="44" x2="940" y2="44" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+
+  <!-- LEFT COLUMN: Identity & Moniker (x: 48) -->
+  <g transform="translate(48, 62)">
     
-    <!-- Cyber Sub-Tag Pill -->
-    <g transform="translate(0, 16)">
-      <rect x="0" y="0" width="220" height="24" rx="12" fill="rgba(168, 85, 247, 0.12)" stroke="#A855F7" stroke-width="1"/>
-      <circle cx="14" cy="12" r="3" fill="#A855F7" class="pulse-dot"/>
-      <text x="26" y="16" fill="#C084FC" class="font-mono" font-size="10.5" font-weight="700" letter-spacing="1.5">
+    <!-- Sub-tag Pill -->
+    <g transform="translate(0, 4)">
+      <rect x="0" y="0" width="180" height="22" rx="11" fill="rgba(168, 85, 247, 0.12)" stroke="#A855F7" stroke-width="1"/>
+      <circle cx="12" cy="11" r="2.5" fill="#A855F7" class="pulse-dot"/>
+      <text x="22" y="15" fill="#C084FC" class="font-mono" font-size="10" font-weight="700" letter-spacing="1.5">
         DEV IDENTITY // EMON
       </text>
     </g>
 
-    <!-- Massive Futuristic Main Moniker -->
-    <text x="0" y="96" fill="url(#titleGradient)" class="font-sans" font-size="58" font-weight="900" letter-spacing="3" filter="url(#softGlow)">
+    <!-- Big Futuristic Title -->
+    <text x="0" y="74" fill="url(#titleGradient)" class="font-sans" font-size="52" font-weight="900" letter-spacing="2.5" filter="url(#softGlow)">
       EMON<tspan fill="#00FF66">.404X</tspan>
     </text>
 
-    <!-- Futuristic Subtitle -->
-    <text x="2" y="128" fill="#FFFFFF" class="font-mono" font-size="15" font-weight="800" letter-spacing="3">
+    <!-- Subtitle -->
+    <text x="2" y="104" fill="#FFFFFF" class="font-mono" font-size="14.5" font-weight="800" letter-spacing="2.5">
       404: SERIOUS DEVELOPER NOT FOUND
     </text>
 
     <!-- Narrative Punchline -->
-    <text x="2" y="152" fill="#94A3B8" class="font-mono" font-size="12" font-weight="500" letter-spacing="1.2">
+    <text x="2" y="128" fill="#94A3B8" class="font-mono" font-size="11.5" font-weight="500" letter-spacing="0.8">
       Just EmOn building cool platforms, breaking things, and doing infinite side quests.
     </text>
 
-    <!-- Modern Capsule Badges -->
-    <g transform="translate(0, 172)">
-      <!-- Pill 1: Mode -->
-      <rect x="0" y="0" width="168" height="28" rx="6" fill="rgba(0, 255, 102, 0.08)" stroke="#00FF66" stroke-width="1"/>
-      <text x="14" y="18" fill="#00FF66" class="font-mono" font-size="10.5" font-weight="700" letter-spacing="1">
+    <!-- Telemetry Pills -->
+    <g transform="translate(0, 146)">
+      <!-- Pill 1: Quest -->
+      <rect x="0" y="0" width="156" height="26" rx="6" fill="rgba(0, 255, 102, 0.08)" stroke="#00FF66" stroke-width="1"/>
+      <text x="12" y="17" fill="#00FF66" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">
         ✦ QUEST: ACCEPTED
       </text>
 
-      <!-- Pill 2: Coffee -->
-      <rect x="180" y="0" width="160" height="28" rx="6" fill="rgba(168, 85, 247, 0.08)" stroke="#A855F7" stroke-width="1"/>
-      <text x="194" y="18" fill="#C084FC" class="font-mono" font-size="10.5" font-weight="700" letter-spacing="1">
+      <!-- Pill 2: Fuel -->
+      <rect x="168" y="0" width="156" height="26" rx="6" fill="rgba(168, 85, 247, 0.08)" stroke="#A855F7" stroke-width="1"/>
+      <text x="180" y="17" fill="#C084FC" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">
         ☕ PURPLE FUEL: 99%
       </text>
 
-      <!-- Pill 3: Tech -->
-      <rect x="352" y="0" width="186" height="28" rx="6" fill="rgba(0, 240, 255, 0.08)" stroke="#00F0FF" stroke-width="1"/>
-      <text x="366" y="18" fill="#00F0FF" class="font-mono" font-size="10.5" font-weight="700" letter-spacing="1">
+      <!-- Pill 3: Stack -->
+      <rect x="336" y="0" width="170" height="26" rx="6" fill="rgba(0, 240, 255, 0.08)" stroke="#00F0FF" stroke-width="1"/>
+      <text x="348" y="17" fill="#00F0FF" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">
         ⚡ STACK: FULL &amp; LOW
       </text>
     </g>
   </g>
 
-  <!-- Right Visual Element: Holographic Equalizer & Side Quest Orb -->
-  <g transform="translate(680, 85)" class="floating-hud">
-    <!-- Cyber Card Frame -->
-    <rect x="0" y="0" width="224" height="196" rx="14" fill="rgba(15, 23, 42, 0.65)" stroke="rgba(0, 240, 255, 0.3)" stroke-width="1.2"/>
-    <rect x="6" y="6" width="212" height="28" rx="6" fill="rgba(30, 41, 59, 0.7)"/>
-    <text x="18" y="24" fill="#00F0FF" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">
+  <!-- RIGHT COLUMN: Telemetry Card (Anchored cleanly at x: 670, y: 62) -->
+  <g transform="translate(670, 62)">
+    <!-- Box Container -->
+    <rect x="0" y="0" width="242" height="174" rx="10" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(0, 240, 255, 0.25)" stroke-width="1.2"/>
+    
+    <!-- Top Card Bar -->
+    <rect x="0" y="0" width="242" height="26" rx="10" fill="rgba(30, 41, 59, 0.8)"/>
+    <rect x="0" y="18" width="242" height="8" fill="rgba(30, 41, 59, 0.8)"/>
+    <line x1="0" y1="26" x2="242" y2="26" stroke="rgba(0, 240, 255, 0.2)" stroke-width="1"/>
+    
+    <text x="14" y="17" fill="#00F0FF" class="font-mono" font-size="9.5" font-weight="700" letter-spacing="1">
       TELEMETRY // AUDIO_EQ
     </text>
-    <circle cx="204" cy="20" r="3" fill="#00FF66" class="pulse-dot"/>
+    <circle cx="224" cy="13" r="2.5" fill="#00FF66" class="pulse-dot"/>
 
-    <!-- Equalizer Frequency Visualizer -->
-    <g transform="translate(24, 82)">
-      <!-- Background baseline -->
-      <line x1="0" y1="36" x2="176" y2="36" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+    <!-- Equalizer Spectrum Bars (cleanly aligned) -->
+    <g transform="translate(18, 54)">
+      <!-- Baseline -->
+      <line x1="0" y1="28" x2="206" y2="28" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
 
-      <!-- Bars -->
-      <rect x="6" y="0" width="6" height="20" rx="3" fill="#A855F7" class="eq-bar-1"/>
-      <rect x="18" y="0" width="6" height="28" rx="3" fill="#8B5CF6" class="eq-bar-3"/>
-      <rect x="30" y="0" width="6" height="16" rx="3" fill="#6366F1" class="eq-bar-2"/>
-      <rect x="42" y="0" width="6" height="32" rx="3" fill="#3B82F6" class="eq-bar-4"/>
-      <rect x="54" y="0" width="6" height="22" rx="3" fill="#00F0FF" class="eq-bar-5"/>
-      <rect x="66" y="0" width="6" height="18" rx="3" fill="#00FF66" class="eq-bar-1"/>
-      <rect x="78" y="0" width="6" height="30" rx="3" fill="#10B981" class="eq-bar-3"/>
-      <rect x="90" y="0" width="6" height="14" rx="3" fill="#00FF66" class="eq-bar-2"/>
-      <rect x="102" y="0" width="6" height="26" rx="3" fill="#00F0FF" class="eq-bar-4"/>
-      <rect x="114" y="0" width="6" height="32" rx="3" fill="#3B82F6" class="eq-bar-5"/>
-      <rect x="126" y="0" width="6" height="20" rx="3" fill="#6366F1" class="eq-bar-1"/>
-      <rect x="138" y="0" width="6" height="28" rx="3" fill="#8B5CF6" class="eq-bar-3"/>
-      <rect x="150" y="0" width="6" height="16" rx="3" fill="#A855F7" class="eq-bar-2"/>
-      <rect x="162" y="0" width="6" height="24" rx="3" fill="#EC4899" class="eq-bar-4"/>
+      <rect x="4" y="4" width="6" height="18" rx="2" fill="#A855F7" class="eq-bar-1"/>
+      <rect x="18" y="0" width="6" height="24" rx="2" fill="#8B5CF6" class="eq-bar-3"/>
+      <rect x="32" y="8" width="6" height="14" rx="2" fill="#6366F1" class="eq-bar-2"/>
+      <rect x="46" y="2" width="6" height="26" rx="2" fill="#3B82F6" class="eq-bar-4"/>
+      <rect x="60" y="6" width="6" height="20" rx="2" fill="#00F0FF" class="eq-bar-5"/>
+      <rect x="74" y="8" width="6" height="16" rx="2" fill="#00FF66" class="eq-bar-1"/>
+      <rect x="88" y="0" width="6" height="26" rx="2" fill="#10B981" class="eq-bar-3"/>
+      <rect x="102" y="10" width="6" height="12" rx="2" fill="#00FF66" class="eq-bar-2"/>
+      <rect x="116" y="2" width="6" height="24" rx="2" fill="#00F0FF" class="eq-bar-4"/>
+      <rect x="130" y="0" width="6" height="26" rx="2" fill="#3B82F6" class="eq-bar-5"/>
+      <rect x="144" y="6" width="6" height="18" rx="2" fill="#6366F1" class="eq-bar-1"/>
+      <rect x="158" y="2" width="6" height="24" rx="2" fill="#8B5CF6" class="eq-bar-3"/>
+      <rect x="172" y="8" width="6" height="14" rx="2" fill="#A855F7" class="eq-bar-2"/>
+      <rect x="186" y="4" width="6" height="20" rx="2" fill="#EC4899" class="eq-bar-4"/>
     </g>
 
-    <!-- Mini Status Readouts -->
-    <g transform="translate(18, 140)">
-      <text x="0" y="0" fill="#64748B" class="font-mono" font-size="9.5" font-weight="600">SYS STATUS:</text>
-      <text x="188" y="0" text-anchor="end" fill="#00FF66" class="font-mono" font-size="9.5" font-weight="700">EXPERIMENTING</text>
+    <!-- Mini Telemetry Logs -->
+    <g transform="translate(14, 114)">
+      <text x="0" y="0" fill="#64748B" class="font-mono" font-size="9" font-weight="600">SYS STATUS:</text>
+      <text x="214" y="0" text-anchor="end" fill="#00FF66" class="font-mono" font-size="9" font-weight="700">EXPERIMENTING</text>
 
-      <text x="0" y="18" fill="#64748B" class="font-mono" font-size="9.5" font-weight="600">BUGS FOUND:</text>
-      <text x="188" y="18" text-anchor="end" fill="#EC4899" class="font-mono" font-size="9.5" font-weight="700">UPGRADED TO FEATURES</text>
+      <text x="0" y="18" fill="#64748B" class="font-mono" font-size="9" font-weight="600">BUGS FOUND:</text>
+      <text x="214" y="18" text-anchor="end" fill="#EC4899" class="font-mono" font-size="9" font-weight="700">FEATURES NOW</text>
 
-      <text x="0" y="36" fill="#64748B" class="font-mono" font-size="9.5" font-weight="600">SLEEP REMAINING:</text>
-      <text x="188" y="36" text-anchor="end" fill="#00F0FF" class="font-mono" font-size="9.5" font-weight="700">404 NOT FOUND</text>
+      <text x="0" y="36" fill="#64748B" class="font-mono" font-size="9" font-weight="600">SLEEP REMAINING:</text>
+      <text x="214" y="36" text-anchor="end" fill="#00F0FF" class="font-mono" font-size="9" font-weight="700">404 NOT FOUND</text>
     </g>
   </g>
 
-  <!-- Bottom Micro Coordinates -->
-  <text x="32" y="302" fill="rgba(255, 255, 255, 0.25)" class="font-mono" font-size="9" letter-spacing="1.5">
+  <!-- Bottom Coordinates -->
+  <text x="32" y="272" fill="rgba(255, 255, 255, 0.25)" class="font-mono" font-size="9" letter-spacing="1.5">
     LAT: 23.8103° N // LON: 90.4125° E // SYS_ID: EMON_404X
   </text>
-  <text x="928" y="302" text-anchor="end" fill="rgba(255, 255, 255, 0.25)" class="font-mono" font-size="9" letter-spacing="1.5">
+  <text x="928" y="272" text-anchor="end" fill="rgba(255, 255, 255, 0.25)" class="font-mono" font-size="9" letter-spacing="1.5">
     BUILD: 2026.10 // MODE: CHAOTIC_CREATIVE
   </text>
 </svg>
