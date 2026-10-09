@@ -7,7 +7,7 @@
 
   <!-- Upgraded Modern Holographic Hero Banner -->
   <a href="https://github.com/emon404x">
-    <img src="assets/hero-banner.svg" alt="404X OS // EmOn Profile Banner" width="100%" />
+    <img src="assets/hero-banner.svg?v=3" alt="404X OS // EmOn Profile Banner" width="100%" />
   </a>
 
   <br/><br/>
