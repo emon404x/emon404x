@@ -142,49 +142,52 @@
 
 <br/>
 
-## 🧰 INVENTORY // WEAPONS & GEAR
+## 🏆 ACCIDENTAL ACHIEVEMENTS // TROPHY ROOM
 
-<div align="center">
-
-### ⚔️ Primary Weapons (Core Languages)
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,python,java,js,ts&theme=dark" alt="Languages: C, C++, Python, Java, JavaScript, TypeScript" />
-  </a>
-</p>
-<sub><em>C &amp; C++ for close-to-metal thinking • Python &amp; Java for solid backends • JS &amp; TS for reactive web</em></sub>
-
-<br/><br/>
-
-### 🛡️ Web Armor & Frameworks
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=django,react,vite,html,css&theme=dark" alt="Frameworks: Django, React, Vite, HTML5, CSS3" />
-  </a>
-</p>
-<sub><em>Django for full-stack backends • React &amp; Vite for fast UI feedback • Modern clean CSS3</em></sub>
-
-<br/><br/>
-
-### 🗄️ Data Vaults & Cloud
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postgres,sqlite,vercel&theme=dark" alt="Data: PostgreSQL, SQLite, Vercel" />
-  </a>
-</p>
-<sub><em>ACID-compliant relational transactions • Instant edge cloud deployments</em></sub>
-
-<br/><br/>
-
-### 🛠️ Systems Kit & Workbench
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode&theme=dark" alt="Tools: Linux, Bash, Git, GitHub, VS Code" />
-  </a>
-</p>
-<sub><em>Linux terminal environments • Git branch automation • Shell scripting</em></sub>
-
-</div>
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🥇 "It Compiled on the First Try"</h4>
+      <sub><b>Rarity:</b> <code>[ ULTRA RARE — 0.4% ]</code></sub>
+      <p>Stared suspiciously at the terminal for five minutes straight, convinced the compiler was lying to me.</p>
+      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00FF66?style=flat-square" alt="Status: Unlocked" />
+    </td>
+    <td width="50%" valign="top">
+      <h4>👾 "That's a Feature Now"</h4>
+      <sub><b>Rarity:</b> <code>[ UNCOMMON — 34.2% ]</code></sub>
+      <p>Accidentally introduced unintended behavior that ended up being substantially cooler than the original plan.</p>
+      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00F0FF?style=flat-square" alt="Status: Unlocked" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🌙 "The 2:00 AM Refactor"</h4>
+      <sub><b>Rarity:</b> <code>[ LEGENDARY — 4.8% ]</code></sub>
+      <p>Rewrote half the codebase in the dead of night because the previous naming conventions "didn't feel aesthetic."</p>
+      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-A855F7?style=flat-square" alt="Status: Unlocked" />
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛡️ "Atomic Concurrency Guardian"</h4>
+      <sub><b>Rarity:</b> <code>[ EPIC — 12.1% ]</code></sub>
+      <p>Tamed database race conditions in FoodFlow using <code>select_for_update</code> and transactional locks.</p>
+      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-EC4899?style=flat-square" alt="Status: Unlocked" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>☕ "Caffeine Overclock"</h4>
+      <sub><b>Rarity:</b> <code>[ PASSIVE BUFF — 100% ]</code></sub>
+      <p>Converted iced purple drinks and strong coffee directly into working git commits without system crashes.</p>
+      <img src="https://img.shields.io/badge/STATUS-ACTIVE_BUFF-00FF66?style=flat-square" alt="Status: Active Buff" />
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔍 "Pointer Whisperer"</h4>
+      <sub><b>Rarity:</b> <code>[ IN PROGRESS — 52.6% ]</code></sub>
+      <p>Wrestling segmentation faults in C &amp; C++ memory spaces until the pointer finally points where it belongs.</p>
+      <img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-F59E0B?style=flat-square" alt="Status: In Progress" />
+    </td>
+  </tr>
+</table>
 
 <br/>
 
