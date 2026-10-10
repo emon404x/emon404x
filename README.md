@@ -10,7 +10,7 @@
     <img src="assets/hero-banner.svg?v=4" alt="404X OS // EmOn Profile Banner" width="100%" />
   </a>
 
-  <br/><br/>
+  <br/>
 
   <!-- Dynamic Typing Animation SVG -->
   <a href="https://github.com/emon404x">
@@ -47,7 +47,7 @@
   <p><sub><b>Rogue Systems &amp; Full-Stack Adventurer</b> • <b>Dhaka, BD [GMT+6]</b></sub></p>
   <p>
     <a href="https://github.com/md-aktaruzzman-emon">
-      <img src="https://img.shields.io/badge/MAIN_ACCOUNT-md--aktaruzzman--emon-00D2FF?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="Main Account: md-aktaruzzman-emon" />
+      <img src="https://img.shields.io/badge/PRIMARY_HUB-@md--aktaruzzman--emon-00D2FF?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="Primary Hub: md-aktaruzzman-emon" />
     </a>
   </p>
 
@@ -58,14 +58,14 @@
 <br/>
 
 ### 🕹️ Pilot Logs
-> Hey there! I'm **Md Aktaruzzman Emon** (aka **EmOn**). You've found my secondary profile (`emon404x`) — dedicated to side quests, experimental prototypes, and random coding adventures.
+> Hey there! I'm **Md Aktaruzzman Emon** (aka **EmOn**). Welcome to my secondary profile (`emon404x`) — my dedicated workshop for side quests, rapid prototypes, and experimental software.
 >
 > 🚀 **Primary Hub:** Looking for my flagship repositories and primary engineering projects? Visit my main account: [**github.com/md-aktaruzzman-emon**](https://github.com/md-aktaruzzman-emon).
 >
 > * 🧩 **Philosophy:** *"Sometimes the code compiles on the first try. That's usually when I start questioning reality."*
-> * 🔍 **The Workflow:** Build prototypes, break them apart, and figure out how the computer actually handles memory, concurrency, and states.
-> * 🎯 **Main Quest:** Engineering robust software — check out my primary work on [@md-aktaruzzman-emon](https://github.com/md-aktaruzzman-emon).
-> * 🗺️ **Side Quests:** Whatever fascinating technical idea catches my attention at 2:00 AM right here on this account.
+> * 🔍 **The Workflow:** Build prototypes, break them apart, and figure out how systems actually handle memory, concurrency, and states.
+> * 🎯 **Main Quest:** Becoming an exceptionally capable software engineer across modern reactive web interfaces and low-level systems.
+> * 🗺️ **Side Quests:** Whatever fascinating technical challenge catches my attention at 2:00 AM right here on this account.
 
 <br/>
 
@@ -95,8 +95,8 @@
   <tr>
     <td width="50%" valign="top">
       <h4>🎨 QUEST-03: Reactive Frontend Architecture</h4>
-      <p>Crafting high-speed interfaces with strict type safety, synchronized state timers, and modern design systems.</p>
-      <code>TypeScript</code> • <code>React</code> • <code>Vite</code> • <code>Modern CSS</code><br/><br/>
+      <p>Crafting high-speed interfaces with strict type safety, synchronized state timers, and modern responsive design.</p>
+      <code>TypeScript</code> • <code>React</code> • <code>Vite</code> • <code>Tailwind CSS</code><br/><br/>
       <img src="https://img.shields.io/badge/STATUS-LEVELING_UP-8B5CF6?style=flat-square&labelColor=0d1117" alt="Status: Leveling Up" />
     </td>
     <td width="50%" valign="top">
@@ -118,17 +118,17 @@
 
 ## 🧪 EXPERIMENT LAB // THINGS I ACTUALLY BUILT
 
-> Real projects with working codebases — built, tested, and running in production.
+> Verified projects with working codebases — tested prototypes, live reactive web apps, and system experiments.
 
 ### 🌐 [FoodFlow-Website](https://github.com/emon404x/FoodFlow-Website)
 **Expiry-Aware Food Donation Platform — Modern Reactive Frontend**  
 🔗 **Live App:** [food-flow-website.vercel.app](https://food-flow-website.vercel.app) • 💻 **Repository:** [`emon404x/FoodFlow-Website`](https://github.com/emon404x/FoodFlow-Website)
 
-* **The Mission:** Prevents edible food waste by connecting donors directly with recipients through real-time urgency countdowns.
-* **Key Architecture:**
+* 🎯 **THE MISSION:** Prevents edible food waste by connecting donors directly with recipients through real-time urgency countdowns.
+* 🛠️ **THE BUILD:**
   * Synchronized browser expiry clocks with dynamic visual classification: `SAFE (>6h)`, `WARNING (2-6h)`, `URGENT (<2h)`, and `EXPIRED`.
-  * Interactive modal claim workflows and responsive mobile-first grid.
-* **Tech Stack:** `TypeScript` • `React` • `Vite` • `Plain CSS3` • `Vercel`
+  * Interactive modal claim workflows and responsive mobile-first interface.
+* 🧰 **TECH STACK:** `TypeScript 5.7` • `React 18` • `Vite 6` • `Tailwind CSS 4` • `Framer Motion` • `Vercel`
 
 ---
 
@@ -136,13 +136,13 @@
 **Full-Stack Django 5 Food Redistribution Platform — Backend & Systems**  
 💻 **Repository:** [`emon404x/FoodFlow-Web`](https://github.com/emon404x/FoodFlow-Web) • 🎓 *University CSE Lab Project*
 
-* **The Mission:** Robust backend ensuring safety, atomic claim integrity, and verified physical handovers.
-* **Key Architecture:**
-  * **Race-Condition Protection:** Concurrency-safe atomic reservations using database row-locking (`select_for_update`) and transactional boundaries (`transaction.atomic`).
-  * **Automated Safety Screening:** Real-time screening against high-risk food keywords.
-  * **Cryptographic Handover Token:** Unique 8-character verification codes generated for donors and recipients.
-  * **Dual Database Mode:** Local development with SQLite3; scalable production deployment with PostgreSQL.
-* **Tech Stack:** `Python 3.14` • `Django 5.x` • `PostgreSQL` • `SQLite3` • `WhiteNoise`
+* 🎯 **THE MISSION:** Robust backend ensuring safety, atomic claim integrity, and verified physical handovers.
+* 🛠️ **THE BUILD:**
+  * **Race-Condition Protection:** Concurrency-safe atomic reservations using database row-locking (`select_for_update`) and transactional boundaries (`transaction.atomic`) to prevent overclaiming.
+  * **Dedicated Service Layer:** Clean separation of concerns across `ExpiryService`, `SafetyService`, `ClaimService`, and `NotificationService`.
+  * **Cryptographic Handover Token:** Unique 8-character verification codes generated for donors and recipients to confirm physical handovers.
+  * **Dual Database Mode:** Local development with SQLite3; cloud persistence configuration with PostgreSQL.
+* 🧰 **TECH STACK:** `Python` • `Django 5.x` • `PostgreSQL` • `SQLite3` • `WhiteNoise`
 
 <br/>
 
@@ -158,13 +158,13 @@
   <tr>
     <td width="50%" valign="top">
       <h4>🥇 "It Compiled on the First Try"</h4>
-      <sub><b>Rarity:</b> <code>[ ULTRA RARE — 0.4% ]</code></sub>
+      <sub><b>Rarity:</b> <code>[ ULTRA RARE ]</code></sub>
       <p>Stared suspiciously at the terminal for five minutes straight, convinced the compiler was lying to me.</p>
       <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00F5A0?style=flat-square&labelColor=0d1117" alt="Status: Unlocked" />
     </td>
     <td width="50%" valign="top">
       <h4>👾 "That's a Feature Now"</h4>
-      <sub><b>Rarity:</b> <code>[ UNCOMMON — 34.2% ]</code></sub>
+      <sub><b>Rarity:</b> <code>[ UNCOMMON ]</code></sub>
       <p>Accidentally introduced unintended behavior that ended up being substantially cooler than the original plan.</p>
       <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00D2FF?style=flat-square&labelColor=0d1117" alt="Status: Unlocked" />
     </td>
@@ -172,13 +172,13 @@
   <tr>
     <td width="50%" valign="top">
       <h4>🌙 "The 2:00 AM Refactor"</h4>
-      <sub><b>Rarity:</b> <code>[ LEGENDARY — 4.8% ]</code></sub>
+      <sub><b>Rarity:</b> <code>[ LEGENDARY ]</code></sub>
       <p>Rewrote half the codebase in the dead of night because the previous naming conventions "didn't feel aesthetic."</p>
       <img src="https://img.shields.io/badge/STATUS-UNLOCKED-8B5CF6?style=flat-square&labelColor=0d1117" alt="Status: Unlocked" />
     </td>
     <td width="50%" valign="top">
       <h4>🛡️ "Atomic Concurrency Guardian"</h4>
-      <sub><b>Rarity:</b> <code>[ EPIC — 12.1% ]</code></sub>
+      <sub><b>Rarity:</b> <code>[ EPIC ]</code></sub>
       <p>Tamed database race conditions in FoodFlow using <code>select_for_update</code> and transactional locks.</p>
       <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00D2FF?style=flat-square&labelColor=0d1117" alt="Status: Unlocked" />
     </td>
@@ -186,13 +186,13 @@
   <tr>
     <td width="50%" valign="top">
       <h4>☕ "Caffeine Overclock"</h4>
-      <sub><b>Rarity:</b> <code>[ PASSIVE BUFF — 100% ]</code></sub>
+      <sub><b>Rarity:</b> <code>[ PASSIVE BUFF ]</code></sub>
       <p>Converted iced purple drinks and strong coffee directly into working git commits without system crashes.</p>
       <img src="https://img.shields.io/badge/STATUS-ACTIVE_BUFF-00F5A0?style=flat-square&labelColor=0d1117" alt="Status: Active Buff" />
     </td>
     <td width="50%" valign="top">
       <h4>🔍 "Pointer Whisperer"</h4>
-      <sub><b>Rarity:</b> <code>[ IN PROGRESS — 52.6% ]</code></sub>
+      <sub><b>Rarity:</b> <code>[ QUEST IN PROGRESS ]</code></sub>
       <p>Wrestling segmentation faults in C &amp; C++ memory spaces until the pointer finally points where it belongs.</p>
       <img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-F59E0B?style=flat-square&labelColor=0d1117" alt="Status: In Progress" />
     </td>
@@ -225,8 +225,8 @@ emon@404x-workstation:~$ cat /etc/404x_runtime.json
 }
 
 emon@404x-workstation:~$ ./check_quest_log.sh
-[✓] FoodFlow-Website ............ Live & ticking on Vercel
-[✓] FoodFlow-Web (Django) ....... Concurrency-safe atomic claims & auto-sweep verified
+[✓] FoodFlow-Website ............ Live reactive frontend on Vercel
+[✓] FoodFlow-Web (Django) ....... Atomic claims & service layer verified
 [~] C/C++ Systems & DSA ......... Low-level memory experiments in progress
 [?] Sleep schedule .............. 404: File Not Found
 
@@ -253,18 +253,18 @@ logout
 
   <!-- GitHub Readme Stats Card (Cyber Matrix & Ice Cyan Theme) -->
   <a href="https://github.com/emon404x">
-    <img src="https://github-readme-stats.vercel.app/api?username=emon404x&show_icons=true&bg_color=0d1117&border_color=00D2FF&title_color=00F5A0&text_color=E6EDF3&icon_color=00D2FF&hide_border=false" alt="EmOn's GitHub Stats" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=emon404x&show_icons=true&bg_color=0d1117&border_color=00D2FF&title_color=00F5A0&text_color=E6EDF3&icon_color=00D2FF&hide_border=false" alt="EmOn's GitHub Stats" height="165" />
   </a>
   <!-- Top Languages Card (Cyber Matrix & Ice Cyan Theme) -->
   <a href="https://github.com/emon404x">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emon404x&layout=compact&bg_color=0d1117&border_color=00D2FF&title_color=00F5A0&text_color=E6EDF3&hide_border=false" alt="EmOn's Most Used Languages" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emon404x&layout=compact&bg_color=0d1117&border_color=00D2FF&title_color=00F5A0&text_color=E6EDF3&hide_border=false" alt="EmOn's Most Used Languages" height="165" />
   </a>
 
   <br/><br/>
 
-  <!-- Streak Stats Card (Cyber Matrix & Ice Cyan Theme) -->
+  <!-- Streak Stats Card (Cyber Matrix & Ice Cyan Theme with High-Contrast Numbers) -->
   <a href="https://github.com/emon404x">
-    <img src="https://streak-stats.demolab.com/?user=emon404x&theme=dark&background=0d1117&border=00D2FF&stroke=00D2FF&ring=00F5A0&fire=00F5A0&currStreakLabel=00F5A0&sideLabels=8B5CF6&dates=94A3B8" alt="EmOn's Streak Stats" width="98%" />
+    <img src="https://streak-stats.demolab.com/?user=emon404x&theme=dark&background=0d1117&border=00D2FF&stroke=00D2FF&ring=00F5A0&fire=00F5A0&currStreakLabel=00F5A0&currStreakNum=00F5A0&sideLabels=8B5CF6&sideNums=00D2FF&dates=94A3B8" alt="EmOn's Streak Stats" width="98%" />
   </a>
 
 </div>
@@ -318,13 +318,10 @@ logout
       <img src="https://img.shields.io/badge/MAIN_GITHUB-md--aktaruzzman--emon-00D2FF?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="Main GitHub Profile" />
     </a>&nbsp;
     <a href="https://github.com/emon404x">
-      <img src="https://img.shields.io/badge/2ND_ACCOUNT-emon404x-00F5A0?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="2nd GitHub Profile" />
+      <img src="https://img.shields.io/badge/2ND_PROFILE-emon404x-00F5A0?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="2nd GitHub Profile" />
     </a>&nbsp;
     <a href="https://food-flow-website.vercel.app">
       <img src="https://img.shields.io/badge/DEMO-FOODFLOW_LIVE-8B5CF6?style=flat-square&logo=vercel&logoColor=FFFFFF&labelColor=0d1117" alt="FoodFlow Live Demo" />
-    </a>&nbsp;
-    <a href="mailto:mdaktaruzzman1156@gmail.com">
-      <img src="https://img.shields.io/badge/SIGNAL-EMAIL_ME-F43F5E?style=flat-square&logo=gmail&logoColor=FFFFFF&labelColor=0d1117" alt="Contact Email" />
     </a>
   </p>
 
