@@ -57,15 +57,22 @@
 
 <br/>
 
-### 🕹️ Pilot Logs
-> Hey there! I'm **Md Aktaruzzman Emon** (aka **EmOn**). Welcome to my secondary profile (`emon404x`) — my dedicated workshop for side quests, rapid prototypes, and experimental software.
+### 🕹️ PILOT LOGS // COCKPIT TRANSMISSION
+
+> **[ 📡 INCOMING TRANSMISSION // 404X_SUBSYSTEM ]**
+> 
+> Greetings, traveler! 👋 I'm **Md Aktaruzzman Emon** (callsign: **EmOn**).  
+> Welcome to **`emon404x`** — my secondary sector, open-source skunkworks, and sandbox laboratory for rapid prototyping, chaotic side quests, and experimental software.
 >
-> 🚀 **Primary Hub:** Looking for my flagship repositories and primary engineering projects? Visit my main account: [**github.com/md-aktaruzzman-emon**](https://github.com/md-aktaruzzman-emon).
+> 🚀 **LOOKING FOR FLAGSHIP WORK?**  
+> For production-grade architectures, university projects, and polished engineering systems, hop over to my **Primary Command Hub**:  
+> 🔗 [**github.com/md-aktaruzzman-emon**](https://github.com/md-aktaruzzman-emon)
 >
-> * 🧩 **Philosophy:** *"Sometimes the code compiles on the first try. That's usually when I start questioning reality."*
-> * 🔍 **The Workflow:** Build prototypes, break them apart, and figure out how systems actually handle memory, concurrency, and states.
-> * 🎯 **Main Quest:** Becoming an exceptionally capable software engineer across modern reactive web interfaces and low-level systems.
-> * 🗺️ **Side Quests:** Whatever fascinating technical challenge catches my attention at 2:00 AM right here on this account.
+> ⚡ **SECTOR DIRECTIVES & PROTOCOLS:**
+> * 🧩 **Core Philosophy:** *"If the code compiles on the first try, don't celebrate — start investigating."*
+> * 🧪 **The Sandbox Rule:** Move fast, break assumptions, stress-test memory models, and discover how things fail under pressure.
+> * 🎯 **Main Quest:** Leveling up into an elite full-stack & systems engineer who bridges bare-metal low-level logic with reactive modern web design.
+> * 🌌 **Side Quests:** Anything weird, ambitious, or technically thrilling that sparks curiosity at 2:00 AM under purple shake fuel.
 
 <br/>
 
