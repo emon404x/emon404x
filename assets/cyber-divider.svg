@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 20" width="100%" height="20">
   <defs>
     <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00FF66" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#00FF66" stop-opacity="0.8"/>
-      <stop offset="47%" stop-color="#00F0FF" stop-opacity="1"/>
-      <stop offset="50%" stop-color="#A855F7" stop-opacity="1"/>
-      <stop offset="53%" stop-color="#00F0FF" stop-opacity="1"/>
-      <stop offset="70%" stop-color="#00FF66" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#00F5A0" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00F5A0" stop-opacity="0.8"/>
+      <stop offset="47%" stop-color="#00D2FF" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="1"/>
+      <stop offset="53%" stop-color="#00D2FF" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#00F5A0" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00F5A0" stop-opacity="0"/>
     </linearGradient>
 
     <filter id="laserGlow">
@@ -22,7 +22,7 @@
   <style>
     @keyframes pulseBeam {
       0%, 100% { opacity: 0.5; }
-      50% { opacity: 1; filter: drop-shadow(0 0 5px #00F0FF); }
+      50% { opacity: 1; filter: drop-shadow(0 0 5px #00D2FF); }
     }
     .beam { animation: pulseBeam 3s ease-in-out infinite; }
   </style>
@@ -31,16 +31,16 @@
   <line x1="0" y1="10" x2="450" y2="10" stroke="url(#laserGrad)" stroke-width="1.5" class="beam"/>
 
   <!-- Center Holographic Diamond & Dots -->
-  <circle cx="460" cy="10" r="1.5" fill="#00FF66"/>
-  <circle cx="468" cy="10" r="2.5" fill="#00F0FF"/>
+  <circle cx="460" cy="10" r="1.5" fill="#00F5A0"/>
+  <circle cx="468" cy="10" r="2.5" fill="#00D2FF"/>
   
   <g transform="translate(480, 10)">
-    <polygon points="0,-6 7,0 0,6 -7,0" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#laserGlow)"/>
-    <circle cx="0" cy="0" r="2" fill="#00FF66"/>
+    <polygon points="0,-6 7,0 0,6 -7,0" fill="#0D1117" stroke="#8B5CF6" stroke-width="1.5" filter="url(#laserGlow)"/>
+    <circle cx="0" cy="0" r="2" fill="#00F5A0"/>
   </g>
 
-  <circle cx="492" cy="10" r="2.5" fill="#00F0FF"/>
-  <circle cx="500" cy="10" r="1.5" fill="#A855F7"/>
+  <circle cx="492" cy="10" r="2.5" fill="#00D2FF"/>
+  <circle cx="500" cy="10" r="1.5" fill="#8B5CF6"/>
 
   <!-- Right Laser Line -->
   <line x1="510" y1="10" x2="960" y2="10" stroke="url(#laserGrad)" stroke-width="1.5" class="beam"/>

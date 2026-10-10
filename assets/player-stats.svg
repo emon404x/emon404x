@@ -2,31 +2,31 @@
   <defs>
     <!-- Background Canvas Gradients -->
     <linearGradient id="dossierBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090b14"/>
-      <stop offset="50%" stop-color="#0e101c"/>
-      <stop offset="100%" stop-color="#080911"/>
+      <stop offset="0%" stop-color="#080B14"/>
+      <stop offset="50%" stop-color="#0D111D"/>
+      <stop offset="100%" stop-color="#070A12"/>
     </linearGradient>
 
     <!-- Gauge Gradients -->
     <linearGradient id="hpGauge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10B981"/>
-      <stop offset="100%" stop-color="#00FF66"/>
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#00F5A0"/>
     </linearGradient>
 
     <linearGradient id="manaGauge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#D946EF"/>
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#C084FC"/>
     </linearGradient>
 
     <linearGradient id="expGauge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6D4"/>
-      <stop offset="100%" stop-color="#3B82F6"/>
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#00D2FF"/>
     </linearGradient>
 
     <linearGradient id="dossierBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#00F5A0" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0.6"/>
     </linearGradient>
   </defs>
 
@@ -47,11 +47,11 @@
   <rect x="6" y="22" width="948" height="10" fill="rgba(30, 41, 59, 0.6)"/>
   <line x1="6" y1="32" x2="954" y2="32" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
 
-  <circle cx="26" cy="19" r="3.5" fill="#00FF66" class="live-led"/>
-  <text x="38" y="23" fill="#00FF66" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.5">
+  <circle cx="26" cy="19" r="3.5" fill="#00F5A0" class="live-led"/>
+  <text x="38" y="23" fill="#00F5A0" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.5">
     PILOT TELEMETRY // STATS_v3.2
   </text>
-  <text x="934" y="23" text-anchor="end" fill="#C084FC" class="mono" font-size="10.5" font-weight="700" letter-spacing="1">
+  <text x="934" y="23" text-anchor="end" fill="#C4B5FD" class="mono" font-size="10.5" font-weight="700" letter-spacing="1">
     LEVEL: 404X [UNLOCKED]
   </text>
 
@@ -61,10 +61,10 @@
     <text x="88" y="16" fill="#F8FAFC" class="mono" font-size="11" font-weight="600">Full-Stack &amp; Systems Explorer</text>
 
     <text x="0" y="44" fill="#64748B" class="mono" font-size="10.5" font-weight="700">SPECIALTY:</text>
-    <text x="88" y="44" fill="#00F0FF" class="mono" font-size="11" font-weight="600">Turning Ideas into Working Platforms</text>
+    <text x="88" y="44" fill="#00D2FF" class="mono" font-size="11" font-weight="600">Turning Ideas into Working Platforms</text>
 
     <text x="0" y="72" fill="#64748B" class="mono" font-size="10.5" font-weight="700">PASSIVE:</text>
-    <text x="88" y="72" fill="#EC4899" class="mono" font-size="11" font-weight="600">Accidental Debugging (+100 Persistence)</text>
+    <text x="88" y="72" fill="#C4B5FD" class="mono" font-size="11" font-weight="600">Accidental Debugging (+100 Persistence)</text>
   </g>
 
   <!-- Vertical Divider (x: 440) -->
@@ -74,23 +74,23 @@
   <g transform="translate(465, 52)">
     <!-- HP Gauge -->
     <g transform="translate(0, 0)">
-      <text x="0" y="10" fill="#10B981" class="mono" font-size="10" font-weight="700">HP [COFFEE LEVEL]</text>
-      <text x="460" y="10" text-anchor="end" fill="#00FF66" class="mono" font-size="10.5" font-weight="700">84%</text>
+      <text x="0" y="10" fill="#00F5A0" class="mono" font-size="10" font-weight="700">HP [COFFEE LEVEL]</text>
+      <text x="460" y="10" text-anchor="end" fill="#00F5A0" class="mono" font-size="10.5" font-weight="700">84%</text>
       <rect x="0" y="16" width="460" height="7" rx="3.5" fill="#1E293B"/>
       <rect x="0" y="16" width="386" height="7" rx="3.5" fill="url(#hpGauge)"/>
     </g>
 
     <!-- MANA Gauge -->
     <g transform="translate(0, 30)">
-      <text x="0" y="10" fill="#A855F7" class="mono" font-size="10" font-weight="700">MANA [CURIOSITY &amp; TINKERING]</text>
-      <text x="460" y="10" text-anchor="end" fill="#D946EF" class="mono" font-size="10.5" font-weight="700">100%</text>
+      <text x="0" y="10" fill="#A78BFA" class="mono" font-size="10" font-weight="700">MANA [CURIOSITY &amp; TINKERING]</text>
+      <text x="460" y="10" text-anchor="end" fill="#C084FC" class="mono" font-size="10.5" font-weight="700">100%</text>
       <rect x="0" y="16" width="460" height="7" rx="3.5" fill="#1E293B"/>
       <rect x="0" y="16" width="460" height="7" rx="3.5" fill="url(#manaGauge)"/>
     </g>
 
     <!-- EXP Gauge -->
     <g transform="translate(0, 60)">
-      <text x="0" y="10" fill="#00F0FF" class="mono" font-size="10" font-weight="700">EXP [EXPERIMENTS &amp; COMMITS]</text>
+      <text x="0" y="10" fill="#00D2FF" class="mono" font-size="10" font-weight="700">EXP [EXPERIMENTS &amp; COMMITS]</text>
       <text x="460" y="10" text-anchor="end" fill="#38BDF8" class="mono" font-size="10.5" font-weight="700">9999 / ∞</text>
       <rect x="0" y="16" width="460" height="7" rx="3.5" fill="#1E293B"/>
       <rect x="0" y="16" width="435" height="7" rx="3.5" fill="url(#expGauge)"/>

@@ -7,24 +7,27 @@
 
   <!-- Upgraded Modern Holographic Hero Banner -->
   <a href="https://github.com/emon404x">
-    <img src="assets/hero-banner.svg?v=3" alt="404X OS // EmOn Profile Banner" width="100%" />
+    <img src="assets/hero-banner.svg?v=4" alt="404X OS // EmOn Profile Banner" width="100%" />
   </a>
 
   <br/><br/>
 
   <!-- Dynamic Typing Animation SVG -->
   <a href="https://github.com/emon404x">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1100&color=00FF66&center=true&vCenter=true&width=700&height=46&lines=404%3A+Serious+Developer+Not+Found.;EmOn.exe+has+entered+the+chat.;Loading+another+side+quest...;Just+one+more+commit.;Bug+discovered.+Sleep+postponed.;Currently+running+on+curiosity.exe;Quest+accepted.+Let's+break+something.;Main+quest%3F+Still+loading." alt="EmOn Dynamic Typing Status" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1100&color=00F5A0&center=true&vCenter=true&width=700&height=46&lines=404%3A+Serious+Developer+Not+Found.;EmOn.exe+has+entered+the+chat.;Loading+another+side+quest...;Just+one+more+commit.;Bug+discovered.+Sleep+postponed.;Currently+running+on+curiosity.exe;Quest+accepted.+Let's+break+something.;Main+quest%3F+Still+loading." alt="EmOn Dynamic Typing Status" />
   </a>
 
   <br/>
 
   <!-- High-Tech Telemetry Status Badges -->
   <p>
-    <img src="https://img.shields.io/badge/STATUS-ONLINE-00FF66?style=flat-square&logo=statuspage&logoColor=080910&labelColor=0d1117" alt="Status: Online" />&nbsp;&nbsp;
-    <img src="https://img.shields.io/badge/MODE-EXPERIMENTAL-A855F7?style=flat-square&logo=scikitlearn&logoColor=FFFFFF&labelColor=0d1117" alt="Mode: Experimental" />&nbsp;&nbsp;
-    <img src="https://img.shields.io/badge/CURRENT_QUEST-SIDE_QUEST_FOREVER-00F0FF?style=flat-square&logo=target&logoColor=080910&labelColor=0d1117" alt="Current Quest" />&nbsp;&nbsp;
-    <img src="https://img.shields.io/badge/PURPLE_FUEL-99%25-EC4899?style=flat-square&logo=coffeescript&logoColor=FFFFFF&labelColor=0d1117" alt="Coffee Level" />
+    <a href="https://github.com/md-aktaruzzman-emon">
+      <img src="https://img.shields.io/badge/MAIN_GITHUB-md--aktaruzzman--emon-00D2FF?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="Main GitHub: md-aktaruzzman-emon" />
+    </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/STATUS-ONLINE-00F5A0?style=flat-square&logo=statuspage&logoColor=080910&labelColor=0d1117" alt="Status: Online" />&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/MODE-EXPERIMENTAL-8B5CF6?style=flat-square&logo=scikitlearn&logoColor=FFFFFF&labelColor=0d1117" alt="Mode: Experimental" />&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/CURRENT_QUEST-SIDE_QUEST_FOREVER-00D2FF?style=flat-square&logo=target&logoColor=080910&labelColor=0d1117" alt="Current Quest" />&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/PURPLE_FUEL-99%25-F43F5E?style=flat-square&logo=coffeescript&logoColor=FFFFFF&labelColor=0d1117" alt="Coffee Level" />
   </p>
 
   <img src="assets/cyber-divider.svg" alt="Cyber Divider" width="100%" />
@@ -42,20 +45,27 @@
   <br/>
   <h3>👾 PILOT: EmOn &nbsp;<code>[ ONLINE ]</code></h3>
   <p><sub><b>Rogue Systems &amp; Full-Stack Adventurer</b> • <b>Dhaka, BD [GMT+6]</b></sub></p>
+  <p>
+    <a href="https://github.com/md-aktaruzzman-emon">
+      <img src="https://img.shields.io/badge/MAIN_ACCOUNT-md--aktaruzzman--emon-00D2FF?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="Main Account: md-aktaruzzman-emon" />
+    </a>
+  </p>
 
   <!-- Full-width Holographic Telemetry Card -->
-  <img src="assets/player-stats.svg" alt="Pilot Telemetry Card" width="100%" />
+  <img src="assets/player-stats.svg?v=4" alt="Pilot Telemetry Card" width="100%" />
 </div>
 
 <br/>
 
 ### 🕹️ Pilot Logs
-> Hey there! I'm **EmOn** (`emon404x`) — a casual developer building random software experiments, exploring the layers between high-level web architecture and low-level systems, and going on perpetual coding side quests.
+> Hey there! I'm **Md Aktaruzzman Emon** (aka **EmOn**). You've found my secondary profile (`emon404x`) — dedicated to side quests, experimental prototypes, and random coding adventures.
+>
+> 🚀 **Primary Hub:** Looking for my flagship repositories and primary engineering projects? Visit my main account: [**github.com/md-aktaruzzman-emon**](https://github.com/md-aktaruzzman-emon).
 >
 > * 🧩 **Philosophy:** *"Sometimes the code compiles on the first try. That's usually when I start questioning reality."*
 > * 🔍 **The Workflow:** Build prototypes, break them apart, and figure out how the computer actually handles memory, concurrency, and states.
-> * 🎯 **Main Quest:** Become an exceptionally capable engineer who builds rock-solid software from low-level systems to modern reactive web interfaces.
-> * 🗺️ **Side Quests:** Whatever fascinating technical idea catches my attention at 2:00 AM.
+> * 🎯 **Main Quest:** Engineering robust software — check out my primary work on [@md-aktaruzzman-emon](https://github.com/md-aktaruzzman-emon).
+> * 🗺️ **Side Quests:** Whatever fascinating technical idea catches my attention at 2:00 AM right here on this account.
 
 <br/>
 
@@ -73,13 +83,13 @@
       <h4>🚀 QUEST-01: Full-Stack Web Ecosystems</h4>
       <p>Building real-world platforms with robust role-based auth, transactional database flows, and REST architectures.</p>
       <code>Python</code> • <code>Django 5</code> • <code>PostgreSQL</code> • <code>SQLite</code><br/><br/>
-      <img src="https://img.shields.io/badge/STATUS-BUILDING-00FF66?style=flat-square" alt="Status: Building" />
+      <img src="https://img.shields.io/badge/STATUS-BUILDING-00F5A0?style=flat-square&labelColor=0d1117" alt="Status: Building" />
     </td>
     <td width="50%" valign="top">
       <h4>⚡ QUEST-02: Systems & Low-Level Sorcery</h4>
       <p>Exploring manual memory management, pointer arithmetic, data structure implementations, and compiler pipelines.</p>
       <code>C</code> • <code>C++</code> • <code>Memory Models</code> • <code>Pointers</code><br/><br/>
-      <img src="https://img.shields.io/badge/STATUS-EXPLORING-00F0FF?style=flat-square" alt="Status: Exploring" />
+      <img src="https://img.shields.io/badge/STATUS-EXPLORING-00D2FF?style=flat-square&labelColor=0d1117" alt="Status: Exploring" />
     </td>
   </tr>
   <tr>
@@ -87,13 +97,13 @@
       <h4>🎨 QUEST-03: Reactive Frontend Architecture</h4>
       <p>Crafting high-speed interfaces with strict type safety, synchronized state timers, and modern design systems.</p>
       <code>TypeScript</code> • <code>React</code> • <code>Vite</code> • <code>Modern CSS</code><br/><br/>
-      <img src="https://img.shields.io/badge/STATUS-LEVELING_UP-A855F7?style=flat-square" alt="Status: Leveling Up" />
+      <img src="https://img.shields.io/badge/STATUS-LEVELING_UP-8B5CF6?style=flat-square&labelColor=0d1117" alt="Status: Leveling Up" />
     </td>
     <td width="50%" valign="top">
       <h4>🛡️ QUEST-04: Defensive Security & Automation</h4>
       <p>Understanding network packets, ethical lab simulations, security scanners, and automated log analysis scripts.</p>
       <code>Bash</code> • <code>Python Automation</code> • <code>Packet Analysis</code><br/><br/>
-      <img src="https://img.shields.io/badge/STATUS-QUEST_ACCEPTED-EC4899?style=flat-square" alt="Status: Quest Accepted" />
+      <img src="https://img.shields.io/badge/STATUS-QUEST_ACCEPTED-00D2FF?style=flat-square&labelColor=0d1117" alt="Status: Quest Accepted" />
     </td>
   </tr>
 </table>
@@ -150,13 +160,13 @@
       <h4>🥇 "It Compiled on the First Try"</h4>
       <sub><b>Rarity:</b> <code>[ ULTRA RARE — 0.4% ]</code></sub>
       <p>Stared suspiciously at the terminal for five minutes straight, convinced the compiler was lying to me.</p>
-      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00FF66?style=flat-square" alt="Status: Unlocked" />
+      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00F5A0?style=flat-square&labelColor=0d1117" alt="Status: Unlocked" />
     </td>
     <td width="50%" valign="top">
       <h4>👾 "That's a Feature Now"</h4>
       <sub><b>Rarity:</b> <code>[ UNCOMMON — 34.2% ]</code></sub>
       <p>Accidentally introduced unintended behavior that ended up being substantially cooler than the original plan.</p>
-      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00F0FF?style=flat-square" alt="Status: Unlocked" />
+      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00D2FF?style=flat-square&labelColor=0d1117" alt="Status: Unlocked" />
     </td>
   </tr>
   <tr>
@@ -164,13 +174,13 @@
       <h4>🌙 "The 2:00 AM Refactor"</h4>
       <sub><b>Rarity:</b> <code>[ LEGENDARY — 4.8% ]</code></sub>
       <p>Rewrote half the codebase in the dead of night because the previous naming conventions "didn't feel aesthetic."</p>
-      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-A855F7?style=flat-square" alt="Status: Unlocked" />
+      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-8B5CF6?style=flat-square&labelColor=0d1117" alt="Status: Unlocked" />
     </td>
     <td width="50%" valign="top">
       <h4>🛡️ "Atomic Concurrency Guardian"</h4>
       <sub><b>Rarity:</b> <code>[ EPIC — 12.1% ]</code></sub>
       <p>Tamed database race conditions in FoodFlow using <code>select_for_update</code> and transactional locks.</p>
-      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-EC4899?style=flat-square" alt="Status: Unlocked" />
+      <img src="https://img.shields.io/badge/STATUS-UNLOCKED-00D2FF?style=flat-square&labelColor=0d1117" alt="Status: Unlocked" />
     </td>
   </tr>
   <tr>
@@ -178,13 +188,13 @@
       <h4>☕ "Caffeine Overclock"</h4>
       <sub><b>Rarity:</b> <code>[ PASSIVE BUFF — 100% ]</code></sub>
       <p>Converted iced purple drinks and strong coffee directly into working git commits without system crashes.</p>
-      <img src="https://img.shields.io/badge/STATUS-ACTIVE_BUFF-00FF66?style=flat-square" alt="Status: Active Buff" />
+      <img src="https://img.shields.io/badge/STATUS-ACTIVE_BUFF-00F5A0?style=flat-square&labelColor=0d1117" alt="Status: Active Buff" />
     </td>
     <td width="50%" valign="top">
       <h4>🔍 "Pointer Whisperer"</h4>
       <sub><b>Rarity:</b> <code>[ IN PROGRESS — 52.6% ]</code></sub>
       <p>Wrestling segmentation faults in C &amp; C++ memory spaces until the pointer finally points where it belongs.</p>
-      <img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-F59E0B?style=flat-square" alt="Status: In Progress" />
+      <img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-F59E0B?style=flat-square&labelColor=0d1117" alt="Status: In Progress" />
     </td>
   </tr>
 </table>
@@ -208,6 +218,7 @@ emon@404x-workstation:~$ cat /etc/404x_runtime.json
   "system": "404X_OS",
   "developer_found": false,
   "status": "Exploring new side quests",
+  "main_account": "https://github.com/md-aktaruzzman-emon",
   "primary_fuel": "Iced Purple Shake / Strong Coffee",
   "active_stack": ["Python", "Django", "C/C++", "TypeScript", "React", "Linux"],
   "known_issue": "Occasionally starts a new project before finishing the last three"
@@ -240,20 +251,20 @@ logout
 
 <div align="center">
 
-  <!-- GitHub Readme Stats Card (Neon Dark Theme) -->
+  <!-- GitHub Readme Stats Card (Cyber Matrix & Ice Cyan Theme) -->
   <a href="https://github.com/emon404x">
-    <img src="https://github-readme-stats.vercel.app/api?username=emon404x&show_icons=true&bg_color=080910&border_color=00FF66&title_color=00FF66&text_color=E6EDF3&icon_color=00F0FF&hide_border=false" alt="EmOn's GitHub Stats" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=emon404x&show_icons=true&bg_color=0d1117&border_color=00D2FF&title_color=00F5A0&text_color=E6EDF3&icon_color=00D2FF&hide_border=false" alt="EmOn's GitHub Stats" width="49%" />
   </a>
-  <!-- Top Languages Card (Neon Dark Theme) -->
+  <!-- Top Languages Card (Cyber Matrix & Ice Cyan Theme) -->
   <a href="https://github.com/emon404x">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emon404x&layout=compact&bg_color=080910&border_color=A855F7&title_color=A855F7&text_color=E6EDF3&hide_border=false" alt="EmOn's Most Used Languages" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emon404x&layout=compact&bg_color=0d1117&border_color=00D2FF&title_color=00F5A0&text_color=E6EDF3&hide_border=false" alt="EmOn's Most Used Languages" width="49%" />
   </a>
 
   <br/><br/>
 
-  <!-- Streak Stats Card (Neon Dark Theme) -->
+  <!-- Streak Stats Card (Cyber Matrix & Ice Cyan Theme) -->
   <a href="https://github.com/emon404x">
-    <img src="https://streak-stats.demolab.com/?user=emon404x&theme=dark&background=080910&border=00F0FF&stroke=00F0FF&ring=00FF66&fire=FF007F&currStreakLabel=00FF66&sideLabels=A855F7&dates=8B949E" alt="EmOn's Streak Stats" width="98%" />
+    <img src="https://streak-stats.demolab.com/?user=emon404x&theme=dark&background=0d1117&border=00D2FF&stroke=00D2FF&ring=00F5A0&fire=00F5A0&currStreakLabel=00F5A0&sideLabels=8B5CF6&dates=94A3B8" alt="EmOn's Streak Stats" width="98%" />
   </a>
 
 </div>
@@ -279,7 +290,7 @@ logout
   </picture>
 
   <br/>
-  <sub><em>Automated daily at midnight UTC via <code>.github/workflows/snake.yml</code> with custom neon-green palette.</em></sub>
+  <sub><em>Automated daily at midnight UTC via <code>.github/workflows/snake.yml</code> with custom cyber-mint palette.</em></sub>
 </div>
 
 <br/>
@@ -296,21 +307,24 @@ logout
 
   <!-- Upgraded Modern Arcade Footer Banner -->
   <a href="https://github.com/emon404x">
-    <img src="assets/footer-banner.svg" alt="404X OS // Session Saved Footer" width="100%" />
+    <img src="assets/footer-banner.svg?v=4" alt="404X OS // Session Saved Footer" width="100%" />
   </a>
 
   <br/><br/>
 
   <!-- Connect & Signal Badges -->
   <p>
+    <a href="https://github.com/md-aktaruzzman-emon">
+      <img src="https://img.shields.io/badge/MAIN_GITHUB-md--aktaruzzman--emon-00D2FF?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="Main GitHub Profile" />
+    </a>&nbsp;
     <a href="https://github.com/emon404x">
-      <img src="https://img.shields.io/badge/GITHUB-emon404x-00FF66?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="GitHub Profile" />
+      <img src="https://img.shields.io/badge/2ND_ACCOUNT-emon404x-00F5A0?style=flat-square&logo=github&logoColor=080910&labelColor=0d1117" alt="2nd GitHub Profile" />
     </a>&nbsp;
     <a href="https://food-flow-website.vercel.app">
-      <img src="https://img.shields.io/badge/DEMO-FOODFLOW_LIVE-00F0FF?style=flat-square&logo=vercel&logoColor=080910&labelColor=0d1117" alt="FoodFlow Live Demo" />
+      <img src="https://img.shields.io/badge/DEMO-FOODFLOW_LIVE-8B5CF6?style=flat-square&logo=vercel&logoColor=FFFFFF&labelColor=0d1117" alt="FoodFlow Live Demo" />
     </a>&nbsp;
     <a href="mailto:mdaktaruzzman1156@gmail.com">
-      <img src="https://img.shields.io/badge/SIGNAL-EMAIL_ME-A855F7?style=flat-square&logo=gmail&logoColor=FFFFFF&labelColor=0d1117" alt="Contact Email" />
+      <img src="https://img.shields.io/badge/SIGNAL-EMAIL_ME-F43F5E?style=flat-square&logo=gmail&logoColor=FFFFFF&labelColor=0d1117" alt="Contact Email" />
     </a>
   </p>
 
